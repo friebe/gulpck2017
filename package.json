@@ -1,6 +1,9 @@
 {
   "name": "gulpck2017",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.9.1"
+  },
   "description": "example gulp file",
   "main": "index.js",
   "scripts": {
@@ -20,6 +23,16 @@
   },
   "homepage": "https://github.com/friebe/gulpck2017#readme",
   "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0"
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.12",
+    "chokidar": "^1.7.0",
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
   }
 }
